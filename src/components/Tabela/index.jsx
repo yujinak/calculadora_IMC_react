@@ -1,9 +1,11 @@
+import styles from "./Tabela.module.css";
+
 const Tabela = () => {
   return (
     <table>
       <thead>
         <tr>
-          <th>Tabela IMC</th>
+          <th colSpan="2">Tabela IMC</th>
         </tr>
         <tr>
           <th>Resultado</th>
@@ -12,32 +14,32 @@ const Tabela = () => {
       </thead>
       <tbody>
         <tr>
-          <th>Abaixo de 17</th>
-          <th>Muito abaixo do peso</th>
+          <td className="muito-abaixo">Abaixo de 17</td>
+          <td>Muito abaixo do peso</td>
         </tr>
-        <tr>
-          <th>Entre 17 e 18,49</th>
-          <th>Abaixo do peso</th>
+        <tr className="abaixo">
+          <td className="abaixo">Entre 17 e 18,49</td>
+          <td className="abaixo">Abaixo do peso</td>
         </tr>
-        <tr>
-          <th>Entre 18,50 e 24,99</th>
-          <th>Peso normal</th>
+        <tr className="normal">
+          <td>Entre 18,50 e 24,99</td>
+          <td>Peso normal</td>
         </tr>
-        <tr>
-          <th>Entre 25 e 29,99</th>
-          <th>Acima do peso</th>
+        <tr className="sobrepeso">
+          <td>Entre 25 e 29,99</td>
+          <td>Acima do peso</td>
         </tr>
-        <tr>
-          <th>Entre 30 e 34,99</th>
-          <th>Obesidade I</th>
+        <tr className="obesidade1">
+          <td>Entre 30 e 34,99</td>
+          <td>Obesidade I</td>
         </tr>
-        <tr>
-          <th>Entre 35 e 39,99</th>
-          <th>Obesidade II</th>
+        <tr className="obesidade2">
+          <td>Entre 35 e 39,99</td>
+          <td>Obesidade II</td>
         </tr>
-        <tr>
-          <th>Acima de 40</th>
-          <th>Obesidade III</th>
+        <tr className="obesidade3">
+          <td>Acima de 40</td>
+          <td>Obesidade III</td>
         </tr>
       </tbody>
     </table>

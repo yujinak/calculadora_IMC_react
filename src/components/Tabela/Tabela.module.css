@@ -1,0 +1,45 @@
+table {
+  text-align: center;
+  margin: 12px auto;
+}
+thead {
+  padding-top: 12px;
+  background-color: rgba(230, 230, 230, 0.72);
+}
+
+tbody {
+  background-color: rgba(237, 234, 234, 0.319);
+}
+
+th,
+td {
+  padding: 0 12px;
+}
+
+.muito-abaixo {
+  color: red;
+  background-color: red;
+  padding: 50px;
+}
+
+.abaixo {
+  color: red;
+  background-color: red;
+  padding: 50px;
+}
+
+.normal {
+}
+
+.sobrepeso {
+}
+
+.obesidade1 {
+}
+
+.obesidade2 {
+}
+
+.obesidade3 {
+  color: red;
+}

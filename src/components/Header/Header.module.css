@@ -1,3 +1,6 @@
 header {
-  background-color: green;
+  background-color: rgb(103, 165, 103);
+  margin: 32px auto;
+  padding: 24px;
+  width: 60%;
 }
